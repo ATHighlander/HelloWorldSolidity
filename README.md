@@ -14,6 +14,8 @@ In order to run the HelloWorld smart contract, initialize a truffle project in a
 
 Next copy or write the HelloWorld.sol file & HelloWorld.js contract & migration files.
 
-To deploy to a test blockchain network, you must edit the truffle-config.js file. Copy my code, or follow along with Mr. Solomon in his tutorial. You must point truffle towards the test blockchain network you intend to run HelloWorld.sol on, and in this example, the contract has been pointed towards a local Ganache network. Please refer to this documentation to learn how to use  Ganache to setup a local test network: https://trufflesuite.com/docs/ganache/quickstart/. 
+To deploy to a test blockchain network, you must edit the truffle-config.js file. Copy my code, or follow along with Mr. Solomon in his tutorial. You must point truffle towards the test blockchain network you intend to run HelloWorld.sol on, and in this example, the contract has been pointed towards a local Ganache network. Please refer to this documentation to learn how to use  Ganache to setup a local test network: https://trufflesuite.com/docs/ganache/quickstart/. Startup the Ganache test network.
 
 Finally, run the following command on the command line in the same directory you initialized the truffle project: truffle deploy --reset
+
+Congrats! Check the changes you made to your local Ganache test network! Check the Ganache test network for your changes.
